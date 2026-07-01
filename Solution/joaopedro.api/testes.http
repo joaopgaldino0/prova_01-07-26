@@ -1,0 +1,15 @@
+### Cadastrar livro
+POST http://localhost:5195/api/pressao/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "Teste",
+    "autor" : "Testador",
+    "preco" : 100
+}
+
+### Listar livros
+GET http://localhost:5195/api/pressao/listar
+
+### Deletar da lista
+PUT http://localhost:5195/apiteste/livros/alterar/83d0f93b-4fae-4e3b-bc62-3ff656fea2bc
