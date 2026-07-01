@@ -3,9 +3,12 @@ POST http://localhost:5195/api/pressao/cadastrar
 Content-Type: application/json
 
 {
-    "nome" : "Teste",
-    "autor" : "Testador",
-    "preco" : 100
+    "id":1,
+    "nomePaciente":"Ana Souza",
+    "pressaoMaxima":118,
+    "pressaoMinima":76,
+    "classificacao":"Normal",
+    "dataRegistro":"2026-06-15T08:30:00"
 }
 
 ### Listar livros
